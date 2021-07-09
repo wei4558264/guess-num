@@ -1,5 +1,9 @@
 import random
-r = random.randint(1,100)
+start = input('請輸入你想猜數字的起始值：')
+start = int(start)
+end= input('請輸入你想猜數字的終點值：')
+end = int(end)
+r = random.randint(start,end)
 guess_time = 1
 while True:
 	guess = input('請猜一個整數:')
